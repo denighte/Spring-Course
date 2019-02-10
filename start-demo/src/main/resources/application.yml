@@ -1,0 +1,12 @@
+logging:
+  level:
+    org.springframework: info
+    com.radchuk: debug
+
+spring:
+  profiles:
+    active: first
+
+myapp:
+  count: 5
+  str: This is string
